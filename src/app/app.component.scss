@@ -1,0 +1,47 @@
+mat-sidenav-container,
+mat-sidenav,
+mat-sidenav-content {
+  height: 100%;
+}
+
+.res {
+  position: absolute;
+  background-color: transparent;
+  z-index: 20;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+a:hover {
+  color: #ff8671;
+}
+
+li {
+  list-style: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 20rem;
+  background: rgba(7, 6, 44, 0.753);
+  // background: linear-gradient(to left, #000000, #2d2d31);
+}
+
+.example-icon {
+  color: white;
+}
+
+.matlist {
+  color: white;
+}
+
+mat-list-item:hover {
+  color: #ff8671;
+}
